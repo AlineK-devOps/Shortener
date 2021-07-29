@@ -1,7 +1,4 @@
-import strategy.FileStorageStrategy;
-import strategy.HashMapStorageStrategy;
-import strategy.OurHashMapStorageStrategy;
-import strategy.StorageStrategy;
+import strategy.*;
 
 import java.util.Date;
 import java.util.HashSet;
@@ -15,6 +12,7 @@ public class Solution {
         Solution.testStrategy(new HashMapStorageStrategy(), 10000);
         Solution.testStrategy(new OurHashMapStorageStrategy(), 10000);
         Solution.testStrategy(new FileStorageStrategy(), 100);
+        Solution.testStrategy(new OurHashBiMapStorageStrategy(), 10000);
     }
 
     /** Возвращает множество идентификаторов для переданного множества строк **/
