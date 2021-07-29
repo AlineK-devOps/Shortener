@@ -1,4 +1,5 @@
 import strategy.HashMapStorageStrategy;
+import strategy.OurHashMapStorageStrategy;
 import strategy.StorageStrategy;
 
 import java.util.Date;
@@ -11,6 +12,7 @@ import java.util.Set;
 public class Solution {
     public static void main(String[] args) {
         Solution.testStrategy(new HashMapStorageStrategy(), 10000);
+        Solution.testStrategy(new OurHashMapStorageStrategy(), 10000);
     }
 
     /** Возвращает множество идентификаторов для переданного множества строк **/
