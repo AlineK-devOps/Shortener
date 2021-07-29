@@ -1,3 +1,4 @@
+import strategy.FileStorageStrategy;
 import strategy.HashMapStorageStrategy;
 import strategy.OurHashMapStorageStrategy;
 import strategy.StorageStrategy;
@@ -13,6 +14,7 @@ public class Solution {
     public static void main(String[] args) {
         Solution.testStrategy(new HashMapStorageStrategy(), 10000);
         Solution.testStrategy(new OurHashMapStorageStrategy(), 10000);
+        Solution.testStrategy(new FileStorageStrategy(), 100);
     }
 
     /** Возвращает множество идентификаторов для переданного множества строк **/
