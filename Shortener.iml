@@ -8,5 +8,6 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="com.google.guava:guava:23.5-jre" level="project" />
+    <orderEntry type="library" name="org.apache.commons:commons-collections4:4.0" level="project" />
   </component>
 </module>

@@ -14,6 +14,7 @@ public class Solution {
         Solution.testStrategy(new FileStorageStrategy(), 100);
         Solution.testStrategy(new OurHashBiMapStorageStrategy(), 10000);
         Solution.testStrategy(new HashBiMapStorageStrategy(), 10000);
+        Solution.testStrategy(new DualHashBidiMapStorageStrategy(), 10000);
     }
 
     /** Возвращает множество идентификаторов для переданного множества строк **/
