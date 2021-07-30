@@ -1,3 +1,5 @@
+package main;
+
 /** Вспомогательный класс для обработки исключений **/
 
 public class ExceptionHandler {

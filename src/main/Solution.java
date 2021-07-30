@@ -1,3 +1,5 @@
+package main;
+
 import strategy.*;
 
 import java.util.Date;

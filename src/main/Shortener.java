@@ -1,3 +1,5 @@
+package main;
+
 import strategy.StorageStrategy;
 
 /** Укорачиватель ссылок **/
